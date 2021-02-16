@@ -1,0 +1,51 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### eclipse ###
+bin/
+WebContent/WEB-INF/classes
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+*.log
+logs/
+log/
+
+### MacOS ###
+**/.DS_Store
+
+### git ignore ###
+!.gitignore
+
+### package & result ###
+*.jar
+*.war
+*.ear
+target/
+.mvn/
+.classes
