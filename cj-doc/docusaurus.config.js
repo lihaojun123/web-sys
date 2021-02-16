@@ -55,19 +55,19 @@ module.exports = {
           items: [
             {
               label: 'vue',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://cn.vuejs.org/',
             },
             {
               label: 'react',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://react.docschina.org/',
             },
             {
               label: 'angular',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://angular.cn/',
             },
             {
               label: 'webapck',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://webpack.docschina.org/',
             }
           ],
         },
@@ -93,11 +93,11 @@ module.exports = {
           items: [
             {
               label: 'd3',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://d3js.org/',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/lihaojun123/web-sys',
             },
           ],
         }
@@ -115,7 +115,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/lihaojun123/web-sys/tree/master/cj-doc/docs',
+            'https://github.com/lihaojun123/web-sys/tree/master/cj-doc/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
