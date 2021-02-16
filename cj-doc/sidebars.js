@@ -1,7 +1,7 @@
 
 module.exports = {
   someSidebar: {
-    "常用linux软件安装说明": ["install/nginx", "install/jenkins"],
+    "常用linux软件安装说明": ["install/nginx", "install/jenkins", "install/docker"],
     "md使用说明": ["md-use"],
     "组件库": ["vue-use", "vue-jsx", "vue-doc", "vue-i18n"],
     "react学习总结": ["react-use"],
