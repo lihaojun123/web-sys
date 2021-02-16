@@ -1,5 +1,5 @@
 ---
-id: mdx
+id: webpack-use
 title: Powered by MDX
 ---
 

@@ -1,15 +1,11 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- */
 
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    "md使用说明": ["md-use"],
+    "vue学习总结": ["vue-use"],
+    "react学习总结": ["react-use"],
+    "webpack学习总结": ["webpack-use"],
+    "组件库学习总结": ["ui/ui-use"],
+    "其他前端框架使用总结": ["other/other-use"]
   },
 };

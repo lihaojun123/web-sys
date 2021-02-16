@@ -48,7 +48,7 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -65,7 +65,7 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -81,7 +81,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              开始
             </Link>
           </div>
         </div>
@@ -91,7 +91,7 @@ function Home() {
           <section className={styles.features}>
             <div className="container">
               <div className="row">
-                {features.map(({title, imageUrl, description}) => (
+                {features.map(({ title, imageUrl, description }) => (
                   <Feature
                     key={title}
                     title={title}

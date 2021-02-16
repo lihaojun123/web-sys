@@ -1,40 +1,47 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- */
 
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: '前端技术学习总结',
+  tagline: '组件库，vue,react，webpack,前端性能监控，d3学习等总结',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: '前端技术学习',
+  projectName: '前端技术学习',
   themeConfig: {
     navbar: {
-      title: 'My Facebook Project',
+      title: '前端技术学习',
       logo: {
-        alt: 'My Facebook Project Logo',
+        alt: '前端技术学习',
         src: 'img/logo.svg',
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: '文档',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        // Please keep GitHub link to the right for consistency.
+        {
+          href: 'http://121.4.130.239/cj-ui/',
+          label: '组件库',
+          position: 'left'
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
+          label: 'd3(echart)',
+          position: 'left'
+        },
+        {
+          href: 'https://github.com/facebook/docusaurus',
+          label: '前端性能监控',
+          position: 'left'
+        },
+        { to: 'blog', label: '个人博客', position: 'left' },
+        // Please keep GitHub link to the right for consistency.
+        {
+          href: 'https://github.com/lihaojun123/web-sys',
           label: 'GitHub',
           position: 'right',
         },
@@ -47,13 +54,21 @@ module.exports = {
           title: 'Learn',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'vue',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'react',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
+            {
+              label: 'angular',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
+            {
+              label: 'webapck',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            }
           ],
         },
         {
@@ -77,37 +92,19 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'd3',
+              href: 'https://github.com/facebook/docusaurus',
             },
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
-        },
-        {
-          title: 'Legal',
-          // Please do not remove the privacy and terms, it's a legal requirement.
-          items: [
-            {
-              label: 'Privacy',
-              href: 'https://opensource.facebook.com/legal/privacy/',
-            },
-            {
-              label: 'Terms',
-              href: 'https://opensource.facebook.com/legal/terms/',
-            },
-          ],
-        },
+        }
       ],
-      logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'img/oss_logo.png',
-        href: 'https://opensource.facebook.com',
-      },
+
       // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}`,
     },
   },
   presets: [
@@ -118,13 +115,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/lihaojun123/web-sys/tree/master/cj-doc/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

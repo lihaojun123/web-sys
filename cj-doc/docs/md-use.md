@@ -1,11 +1,9 @@
 ---
-id: doc1
-title: Style Guide
-sidebar_label: Style Guide
+id: md-use
+title: md使用说明
+sidebar_label: md使用说明
 slug: /
 ---
-
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 ## Markdown Syntax
 
