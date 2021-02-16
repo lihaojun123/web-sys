@@ -1,0 +1,8 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["plugin:vue-libs/recommended"], // ,"plugin:vue-libs/recommended"
+  "rules": {
+    "comma-dangle": [2, "always-multiline"],
+    "no-var": "error"
+  }
+}
