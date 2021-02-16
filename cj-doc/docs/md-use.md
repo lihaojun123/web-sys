@@ -1,8 +1,6 @@
 ---
 id: md-use
 title: md使用说明
-sidebar_label: md使用说明
-slug: /
 ---
 
 ## Markdown Syntax

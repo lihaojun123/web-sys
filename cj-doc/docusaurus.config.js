@@ -12,10 +12,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: '前端技术学习',
-      logo: {
-        alt: '前端技术学习',
-        src: 'img/logo.svg',
-      },
+
       items: [
         {
           to: 'docs/',
