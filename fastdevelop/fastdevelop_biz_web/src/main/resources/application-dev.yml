@@ -1,0 +1,33 @@
+server:
+  port: 10011
+  servlet:
+    context-path: /fastdevelop_biz_web
+spring:
+  application:
+    name: fastdevelop_biz_web
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/fastdevelop?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=GMT%2B8&useSSL=false
+      username: root
+      password: 123456
+
+pagehelper:
+  helper-dialect: mysql
+
+fastdevelop:
+  blog:
+    detailMdPath: C:\Users\admin\Desktop\kelin\projects\blogMdPath\
+  album:
+    detailMdPath: C:\Users\admin\Desktop\kelin\projects\albumMdPath\
+    chapterMdPath: C:\Users\admin\Desktop\kelin\projects\albumMdPath\chapterMdPath\
+
+
+MyRedisUtil:
+  enabld: false
+  host: localhost
+  passwd: Yhrh#2020
+  port: 6379
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
