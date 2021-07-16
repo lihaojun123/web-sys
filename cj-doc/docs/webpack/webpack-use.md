@@ -113,3 +113,4 @@ import('./app.jsx').then((App) => {
 - `[id]` - chunk id（例如 `[id].js` -> `485.js`）
 - `[name]` - chunk name（例如 `[name].js` -> `app.js`）。如果 chunk 没有名称，则会使用其 id 作为名称
 - `[contenthash]` - 输出文件内容的 md4-hash（例如 `[contenthash].js` -> `4ea6ff1de66c537eb9b2.js`）
+
